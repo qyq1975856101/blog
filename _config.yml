@@ -7,18 +7,18 @@ title: 午后
 # 网站副标题，打字效果
 # 如果有符号 ‘ ，请在 ’ 前面加上 \
 subtitle: 花茶
-  # enable: true
-  # loop: true # 是否循环
-  # showCursor: true # 是否显示光标
-  # startDelay: 300 # 开始延迟
-  # typeSpeed: 100 # 打字速度
-  # backSpeed: 50 # 删除速度
-  # sub1: 志之所向，金石为开，谁能御之？
-  # sub2: 花开不是为了花落，而是为了开的更加灿烂。
-  # sub3: 没有伞的孩子必须努力奔跑！
-  # sub4: 欲望以提升热忱，毅力以磨平高山。
-  # sub5: 如果放弃太早，你永远都不知道自己会错过什么。
-  # sub6: 没有礁石，就没有美丽的浪花；没有挫折，就没有壮丽的人生。
+enable: true
+loop: true # 是否循环
+showCursor: true # 是否显示光标
+startDelay: 300 # 开始延迟
+typeSpeed: 100 # 打字速度
+backSpeed: 50 # 删除速度
+sub1: 志之所向，金石为开，谁能御之？
+sub2: 花开不是为了花落，而是为了开的更加灿烂。
+sub3: 没有伞的孩子必须努力奔跑！
+sub4: 欲望以提升热忱，毅力以磨平高山。
+sub5: 如果放弃太早，你永远都不知道自己会错过什么。
+sub6: 没有礁石，就没有美丽的浪花；没有挫折，就没有壮丽的人生。
 # 下面两个description,keywords，需要填上，如果想让搜索引擎收录，这个做SEO优化必不可忽视的两个属性
 description: 专注于Web,分享生活,分享知识  #网站描述
 keywords: [HTML, CSS, JavaScript, JQuery, React, Vue.js等]  #网站的关键词
@@ -31,7 +31,21 @@ timezone: ''
 favicon: themes\matery\source\favicon.png
 logo: themes\matery\source\medias\logo.png
 
-
+# 网站副标题，打字效果
+# 如果有符号 ‘ ，请在 ’ 前面加上 \
+# subtitle: 花茶
+# enable: true
+# loop: true # 是否循环
+# showCursor: true # 是否显示光标
+# startDelay: 300 # 开始延迟
+# typeSpeed: 100 # 打字速度
+# backSpeed: 50 # 删除速度
+# sub1: 志之所向，金石为开，谁能御之？
+# sub2: 花开不是为了花落，而是为了开的更加灿烂。
+# sub3: 没有伞的孩子必须努力奔跑！
+# sub4: 欲望以提升热忱，毅力以磨平高山。
+# sub5: 如果放弃太早，你永远都不知道自己会错过什么。
+# sub6: 没有礁石，就没有美丽的浪花；没有挫折，就没有壮丽的人生。
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
