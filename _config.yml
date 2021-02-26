@@ -168,3 +168,20 @@ hexo_external_link:
   abbrlink:
     alg: crc16   #算法： crc16(default) and crc32
     rep: hex     #进制： dec(default) and hex: dec #输出进制：十进制和十六进制，默认为10进制。丨dec为十进制，hex为十六进制
+
+# 博文加密  npm install --save hexo-blog-encrypt
+encrypt: # hexo-blog-encrypt
+  enable: true
+  abstract: 有东西被加密了, 请输入密码查看.
+  message: 您好, 这里需要密码.
+  tags:
+  - {name: tagName, password: 密码A}
+  - {name: tagName, password: 密码B}
+  wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.
+  wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
+
+# 图片懒加载插件npm install hexo-lazyload-image --save
+lazyload:
+  enable: false
+  onlypost: false  # 是否只对文章的图片做懒加载
+  loadingImg: # /medias/loading.gif # eg ./images/loading.gif
